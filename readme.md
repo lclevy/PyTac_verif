@@ -147,7 +147,7 @@ Certificate:
         Serial Number:
             34:ff:bf:04:17:98:3d:cd:85:85:76:9b:9f:91:09:31
         Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C = FR, O = DHIMYOTIS, OU = 0002 48146308100036, CN = **FR03**
+        Issuer: C = FR, O = DHIMYOTIS, OU = 0002 48146308100036, CN = FR03
         Validity
             Not Before: Apr 22 22:00:00 2021 GMT
             Not After : Apr 21 21:59:59 2024 GMT
@@ -163,7 +163,7 @@ Certificate:
         Serial Number:
             34:26:68:a2:ff:09:28:0d:ff:7e:ca:2e:c7:31:07:cb
         Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C = FR, O = DHIMYOTIS, OU = 0002 48146308100036, CN = **FR03**
+        Issuer: C = FR, O = DHIMYOTIS, OU = 0002 48146308100036, CN = FR03
         Validity
             Not Before: Apr 22 22:00:00 2021 GMT
             Not After : Apr 21 21:59:59 2024 GMT
@@ -174,9 +174,7 @@ Certificate:
 
 ### Verification algorithm
 
-In 2d-doc, signature is encode in base32, and algorithm is ECDSA P-256.
-
-See section 5.1 in [1]
+In 2d-doc, signature is encoded in base32, and algorithm is ECDSA P-256, see section 5.1 in [1]
 
 Reference x509 certificate (file FR000001_CERT.PEM) and private key (FR000001_PRIV.PEM) are given in section 15.1 of [1]
 
