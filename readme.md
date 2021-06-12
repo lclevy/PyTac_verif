@@ -68,7 +68,7 @@ This is the example given in specifications
     [+]verifying signature with PyCryptodome
     The message is authentic.
 
-
+Public key used:
 
     >more FR000001_PUB.PEM`
     -----BEGIN PUBLIC KEY-----
@@ -95,15 +95,7 @@ on a real one (censored, just replace with yours), with FR03AV01 x509 certificat
     [+]testing with PyCryptodome
     The message is authentic.
 
-
-
-Public certificate FR03AV01_PUB.PEM is used, here is the public key:
-
-    >more FR03AV01_PUB.PEM
-    -----BEGIN PUBLIC KEY-----
-    MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1T9uG2bEP7uWND6RT/lJs2y787Bk
-    EJoRMMLXvqPKFFC3ckqFAPnFjbiv/odlWH04a1P9CvaCRxG31FMEOFZyXA==
-    -----END PUBLIC KEY-----
+Here x509 certificate FR03AV01_CERT.DER is used.
 
 
 
