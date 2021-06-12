@@ -84,7 +84,9 @@ on a real one (censored, just replace with yours), with FR03AV01 x509 certificat
     DC04FR03AV011E7F1E7FL101FR[...]LATE<US>C5BUAX4MZOINK7LCKIK4UOXW5WET6AQ3N4LVEJYOLUEMSRUD3YE5W44QTZ2PIRRWSQPVIUB5UQNSBUL27R6TFT4PJLJ63CXIPPG5SNY
 
 
-    >python -v PyTac_verif.py FR03AV01_av.txt`
+Verification:
+
+    >python PyTac_verif.py -v FR03AV01_av.txt`
     
     [+]parsing Attestation vaccinale data
     header(marker=b'DC', version=b'04', CA_id=b'FR03', cert_id=b'AV01', publish_date=b'1E7F', sign_date=b'1E7F', doc_id=b'L1', perimeter_id=b'01', country=b'FR')
