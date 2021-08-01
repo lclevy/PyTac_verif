@@ -45,7 +45,7 @@ def parse_certificate(data):
     return
   else:
     msg = bin_data[:sign_offset]  
-    signature = bin_data[sign_offset+1:]
+    signature = bin_data.strip()[sign_offset+1:]
     signature = signature + (8-len(signature)%8)*b'=' #base32 padding
     bsign = b32decode(signature)
     return msg, bsign
